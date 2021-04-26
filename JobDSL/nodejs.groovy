@@ -1,7 +1,7 @@
 job ('job-example-for-npm')
 {
 scm {
-    git('https://github.com/kulikp/testnodejs.git') { node ->
+    git('https://github.com/kulikp/jobdsl1.git') { node ->
     node / gitConfigName('DSL script')
     node / gitConfigEmail('jenkins-dsl-script@test.com')
     }
