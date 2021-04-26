@@ -1,4 +1,4 @@
-job ('job example for npm')
+job ('job-example-for-npm')
 {
 scm {
     git('https://github.com/kulikp/testnodejs.git') { node ->
